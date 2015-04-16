@@ -1,6 +1,4 @@
 @echo off
-REM backspace.vbs is needed as well
-
 CALL :EVALUATE "chr(8)"
 REM "%result% %result%" is used to clear the previous character instead of simply moving the cursor back one
 SET "backspace=%result% %result%"
